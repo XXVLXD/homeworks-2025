@@ -1,0 +1,123 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Boldonse&family=Bytesized&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header__container,
+.main__container {
+   margin-bottom: 30px;
+}
+
+.header__container,
+.main__container,
+.footer__container {
+   padding: 15px;
+}
+
+.header__title {
+   color: orange;
+   font-family: "Barriecito";
+   font-size: 50px;
+   font-weight: 700;
+   font-style: normal;
+   text-align: center;
+   text-decoration: underline;
+   text-decoration-thickness: 5px;
+   text-underline-offset: 18px;
+   letter-spacing: 20px;
+   margin-bottom: 30px;
+}
+
+.header__item {
+   color: rgb(226, 0, 215);
+   font-family: "Signpainter";
+   font-size: 25px;
+   font-weight: 400;
+   font-style: normal;
+   white-space: nowrap;
+   text-shadow: 2px 2px 2px rgb(78, 78, 78);
+}
+
+.main__text-block {
+   margin-bottom: 70px;
+}
+
+.main__title {
+   color: rgb(30, 0, 255);
+   font-family: "Barriecito";
+   font-size: 100px;
+   font-weight: 300;
+   font-style: oblique;
+   text-align: center;
+   text-decoration: line-through;
+   text-decoration-style: wavy;
+   text-decoration-thickness: 10px;
+   text-transform: lowercase;
+   letter-spacing: 5px;
+   word-spacing: 500px;
+   margin-bottom: 20px;
+}
+
+.main__item {
+   color: rgb(0, 204, 255);
+   font-family: "Poppins";
+   font-size: 25px;
+   font-weight: 900;
+   font-style: oblique;
+   text-align: right;
+   word-spacing: 30px;
+}
+
+.main__homework-block {
+   max-width: 870px;
+   margin: 0 auto;
+   margin-bottom: 0px;
+   border: 1px solid rgb(201, 201, 201);
+   padding: 25px;
+   box-shadow: 0px 0px 10px rgb(106, 106, 106);
+   border-radius: 20px;
+}
+/* Спеціально додав трішечки стилізації на цей блок, аби він виділявся серед інших ще більше, бо це основне домашнє завдання. Не сваріться будь-ласка */
+
+.homework__item-title {
+   color: #1A1A1A;
+   font-family: "Poppins";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 30px;
+   margin-bottom: 16px;
+}
+
+.homework__item-parag {
+   color: #808080;
+   font-family: "Poppins";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 27px;
+}
+
+.homework__item-parag:not(:last-of-type) {
+   margin-bottom: 24px;
+}
+
+.footer__title {
+   text-align: end;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 50px;
+   font-weight: 600;
+   font-style: normal;
+   color: greenyellow;
+   text-decoration: underline double;
+   margin-bottom: 30px;
+}
+
+.footer__item {
+   font-family: 'Trebuchet MS', Arial, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 15px;
+   color: lime;
+}
