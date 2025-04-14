@@ -1,0 +1,123 @@
+@import url("reset.css");
+
+.wrapper {
+   overflow: hidden;
+   min-height: 100%;
+}
+
+
+/* CARDS */
+.cards {
+   background-color: #412672;
+   color: #fff;
+   font-family: "Inter", "Arial", sans-serif;
+   margin-bottom: 35px;
+}
+
+.cards__container {
+   max-width: 1230px;
+   margin: 0 auto;
+   padding: 70px 0px 100px 0px;
+}
+
+.cards__title {
+   font-size: 38px;
+   margin-bottom: 31px;
+}
+
+
+/* картка */
+.card__item {
+   display: inline-block;
+   max-width: 387px;
+   background-color: #fff;
+   padding: 20px;
+   margin-right: 20px;
+   transition: all 0.2s;
+}
+
+.card__item:hover {
+   background-color: #FFBE48;
+}
+
+
+
+/* наповнення картки */
+.card__image {
+   margin-bottom: 16px;
+}
+
+.card__text {
+   max-width: 347px;
+   color: #4f4f4f;
+   font-size: 15px;
+   margin-bottom: 16px;
+   line-height: 1.2;
+}
+
+.card__text p:nth-child(1) {
+   color: black;
+   font-size: 22px;
+   font-weight: 600; 
+   margin-bottom: 16px;
+}
+
+.card__text p:nth-child(2) {
+   height: 76px;
+}
+
+.card__link {
+   color:#FE3F3F;
+   font-size: 15px;
+}
+
+.card__link a:hover {
+   text-decoration: underline;
+}
+
+.card__link:active {
+   color:rgb(171, 0, 0);
+}
+
+
+
+
+/* INFO */
+.info {
+   font-family: "Inter", "Arial", sans-serif;
+}
+
+.info__container {
+   max-width: 560px;
+   padding: 5px;
+   margin: 0 auto;
+}
+
+.info__title {
+   font-size: 34px;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+
+.info__text-block {
+   max-width: 518px;
+   font-size: 22px;
+   font-weight: 400;
+   color: #412672;
+   margin-bottom: 20px;
+}
+
+.info__list-block {
+   font-size: 20px;
+   color: #4f4f4f;
+   line-height: 2.5;
+}
+
+.list__item::before {
+   content: url("../img/text-block/red-chechmark.svg");
+   text-align: center;
+   vertical-align:-18%;
+   width: 25px;
+   height: 25px;
+   margin-right: 20px;
+}
