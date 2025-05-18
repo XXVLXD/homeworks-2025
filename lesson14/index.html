@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>HTML FORMS</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__content">
+            <div class="header__container">
+               <h1 class="header__title">Hello, It's me, HEADER!</h1>
+               <!-- <div class="header__links hlinks">
+                  <a href="" class="hlinks__link"></a>
+                  <a href="" class="hlinks__link"></a>
+               </div> -->
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="main__container">
+            <form enctype="multipart/form-data" method="post" action="#">
+               <div class="main__billing-block form">
+                  <div class="form__title">
+                     <h2>
+                        Billing Information
+                     </h2>
+                  </div>
+                  <div class="form__group">
+                     <div class="form__item">
+                        <label class="form__label" for="#name">
+                           <span class="form__span">First name</span>
+                           <input placeholder="Your first name" id="name" name="form[name]" type="text"
+                              class="form__input">
+                        </label>
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="#lastname">
+                           <span class="form__span">Last name</span>
+                           <input placeholder="Your last name" id="lastname" name="form[lastname]" type="text"
+                              class="form__input">
+                        </label>
+                     </div>
+                     <div class="form__item">
+                        <label class="form__label" for="#comname">
+                           <span class="form__span">Company Name (optional)</span>
+                           <input placeholder="Company name" id="comname" name="form[comname]" type="text"
+                              class="form__input">
+                        </label>
+                     </div>
+                  </div>
+                  <div class="form__group">
+                     <div class="form__item">
+                        <label class="form__label" for="#straddress">
+                           <span class="form__span">Street Address</span>
+                           <input placeholder="Company name" id="straddress" name="form[straddress]" type="text"
+                              class="form__input form__input--full-width">
+                        </label>
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </main>
+   </div>
+</body>
+
+</html>
